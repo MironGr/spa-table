@@ -1,0 +1,29 @@
+.table {
+  outline: 2px black solid;
+
+  &__row {
+    display: flex;
+  }
+
+  &__cell {
+    display: flex;
+    padding: 5px;
+    width: 150px;
+
+    outline: 1px black solid;
+  }
+
+  &__btn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  &__pagination {
+    display: flex;
+    align-items: center;
+
+    width: 150px;
+    margin-top: 10px;
+  }
+}

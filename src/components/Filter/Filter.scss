@@ -1,0 +1,28 @@
+.filter {
+  display: flex;
+  justify-content: start;
+  width: 640px;
+  height: 30px;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+  &__column {
+    width: 110px;
+    height: 100%;
+    margin-right: 10px;
+
+  }
+
+  &__condition {
+    width: 110px;
+    height: 100%;
+    margin-right: 10px;
+  }
+
+  &__options {
+    width: 385px;
+    height: 90%;
+    padding: 0 5px;
+  }
+}

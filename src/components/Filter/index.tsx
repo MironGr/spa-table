@@ -46,7 +46,7 @@ export const Filter: React.FC = () => {
           dispatch(setWhereTable(e.target.value))
         }}
       >
-        <option value='' selected disabled hidden/>
+        <option value='' selected disabled/>
         <option value='name'>Name</option>
         <option 
           value='count'
@@ -76,7 +76,7 @@ export const Filter: React.FC = () => {
           dispatch(getDataTable(payload))
         }}
       >
-        <option value='' selected disabled hidden/>
+        <option value='' selected disabled/>
         <option value='equal'>equal</option>
         <option 
           value='contain'
